@@ -1,0 +1,101 @@
+.logo{
+  height: 250px;
+  width: 500px;
+  border-radius: 100%;
+  display: flex;
+  margin-left: 140px;
+padding-top: 20px;
+}
+.nearby{
+  height: 200px;
+  width:400px;
+  margin-top: -180px;
+  padding-left: 90px;
+
+}
+.navBar{
+  text-align: right;
+  padding: 30px 50px;
+}
+.nav{
+  display: flex;
+}
+
+header {
+  background-color: rgb(221, 84, 84);
+ 
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.note {
+  background: rgb(129, 116, 116);
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  width: 240px;
+  
+  float: left;
+  text-align: center;
+}
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  background-color: #81ecec;
+  
+  height: 200px;
+  margin: 35px;
+  width: 300px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+  padding: 0px;
+}
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 300px;
+  background-color: #00cec9;
+  position: absolute;
+  display: flex;
+  text-align: center;
+}
+
+.name {
+  font-size: 2em;
+  color: #2d3436;
+  display: flex;
+  flex: 1;
+  margin: 10% 20px 0;
+}
+
+
+.card img {
+  margin: 30px 20px 0 0;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 80px;
+  height: 80px;
+}
+
+.bottom {
+  margin-top: 120px;
+  height: 100px;
+  width:300px;
+  text-align: center;
+}
+
+.info {
+  margin: 20px 0;
+  color: #1a7e76;
+}
+.cards{
+  display: flex;
+  background-image: url("background.jpg");
+ margin-top: 60px;
+  background-position: 70%;
+  padding: 60px;
+  background-repeat: no-repeat;
+}
